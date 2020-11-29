@@ -1,0 +1,6 @@
+framework module Pods_KaodimAssignmentTests {
+  umbrella header "Pods-KaodimAssignmentTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D54CCE1D721CB73FA5A7078 /* Pods_KaodimAssignmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1EA9100D9303D2608A82E4A /* Pods_KaodimAssignmentTests.framework */; };
+		4709DAC623F7C695008559C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAC523F7C695008559C5 /* AppDelegate.swift */; };
+		4709DACA23F7C695008559C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAC923F7C695008559C5 /* ViewController.swift */; };
+		4709DACD23F7C695008559C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709DACB23F7C695008559C5 /* Main.storyboard */; };
+		4709DAD023F7C695008559C5 /* KaodimAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4709DACE23F7C695008559C5 /* KaodimAssignment.xcdatamodeld */; };
+		4709DAD223F7C696008559C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4709DAD123F7C696008559C5 /* Assets.xcassets */; };
+		4709DAD523F7C696008559C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4709DAD323F7C696008559C5 /* LaunchScreen.storyboard */; };
+		4709DAE023F7C696008559C5 /* KaodimAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DADF23F7C696008559C5 /* KaodimAssignmentTests.swift */; };
+		4709DAEB23F7C696008559C5 /* KaodimAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAEA23F7C696008559C5 /* KaodimAssignmentUITests.swift */; };
+		4709DAFC23F7CC08008559C5 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAFA23F7CC08008559C5 /* NetworkRouter.swift */; };
+		4709DAFD23F7CC08008559C5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAFB23F7CC08008559C5 /* NetworkManager.swift */; };
+		4709DB0223F7CD7B008559C5 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DAFF23F7CD7B008559C5 /* Keys.swift */; };
+		4709DB0323F7CD7B008559C5 /* ProgressIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0023F7CD7B008559C5 /* ProgressIndicator.swift */; };
+		4709DB0423F7CD7B008559C5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0123F7CD7B008559C5 /* Utils.swift */; };
+		4709DB0623F7CE3B008559C5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4709DB0523F7CE3B008559C5 /* Localizable.strings */; };
+		4709DB0823F7D349008559C5 /* StoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0723F7D349008559C5 /* StoriesModel.swift */; };
+		4709DB0A23F7D87E008559C5 /* ModelStories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0923F7D87E008559C5 /* ModelStories.swift */; };
+		4709DB0C23F7E194008559C5 /* StoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0B23F7E194008559C5 /* StoriesViewModel.swift */; };
+		4709DB0E23F7E388008559C5 /* StoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0D23F7E388008559C5 /* StoryViewController.swift */; };
+		4709DB1023F7EDF5008559C5 /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB0F23F7EDF5008559C5 /* EndPoints.swift */; };
+		4709DB1523F811BB008559C5 /* StoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB1323F811BB008559C5 /* StoryCell.swift */; };
+		4709DB1623F811BC008559C5 /* StoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4709DB1423F811BB008559C5 /* StoryCell.xib */; };
+		4709DB1823F87242008559C5 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB1723F87242008559C5 /* DateHelper.swift */; };
+		4709DB1C23F89488008559C5 /* StoryDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4709DB1A23F89488008559C5 /* StoryDetailsViewController.swift */; };
+		4709DB1D23F89488008559C5 /* StoryDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4709DB1B23F89488008559C5 /* StoryDetailsViewController.xib */; };
+		6098B72A57BD295407163CC6 /* Pods_KaodimAssignment_KaodimAssignmentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48400934718616C403E219DE /* Pods_KaodimAssignment_KaodimAssignmentUITests.framework */; };
+		C9DF75BE1A5191F6E322D4AF /* Pods_KaodimAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C26CA6E6E96F643E1FDD1C2 /* Pods_KaodimAssignment.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4709DADC23F7C696008559C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4709DABA23F7C694008559C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4709DAC123F7C695008559C5;
+			remoteInfo = KaodimAssignment;
+		};
+		4709DAE723F7C696008559C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4709DABA23F7C694008559C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4709DAC123F7C695008559C5;
+			remoteInfo = KaodimAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C26CA6E6E96F643E1FDD1C2 /* Pods_KaodimAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaodimAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ECBE087E10EC545E724581C /* Pods-KaodimAssignment-KaodimAssignmentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignment-KaodimAssignmentUITests.release.xcconfig"; path = "Target Support Files/Pods-KaodimAssignment-KaodimAssignmentUITests/Pods-KaodimAssignment-KaodimAssignmentUITests.release.xcconfig"; sourceTree = "<group>"; };
+		41D169EBEB376F187C130539 /* Pods-KaodimAssignmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignmentTests.debug.xcconfig"; path = "Target Support Files/Pods-KaodimAssignmentTests/Pods-KaodimAssignmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4709DAC223F7C695008559C5 /* KaodimAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KaodimAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4709DAC523F7C695008559C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4709DAC923F7C695008559C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4709DACC23F7C695008559C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4709DACF23F7C695008559C5 /* KaodimAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KaodimAssignment.xcdatamodel; sourceTree = "<group>"; };
+		4709DAD123F7C696008559C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4709DAD423F7C696008559C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4709DAD623F7C696008559C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709DADB23F7C696008559C5 /* KaodimAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaodimAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4709DADF23F7C696008559C5 /* KaodimAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaodimAssignmentTests.swift; sourceTree = "<group>"; };
+		4709DAE123F7C696008559C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709DAE623F7C696008559C5 /* KaodimAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KaodimAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4709DAEA23F7C696008559C5 /* KaodimAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KaodimAssignmentUITests.swift; sourceTree = "<group>"; };
+		4709DAEC23F7C696008559C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4709DAFA23F7CC08008559C5 /* NetworkRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		4709DAFB23F7CC08008559C5 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4709DAFF23F7CD7B008559C5 /* Keys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		4709DB0023F7CD7B008559C5 /* ProgressIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressIndicator.swift; sourceTree = "<group>"; };
+		4709DB0123F7CD7B008559C5 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		4709DB0523F7CE3B008559C5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4709DB0723F7D349008559C5 /* StoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesModel.swift; sourceTree = "<group>"; };
+		4709DB0923F7D87E008559C5 /* ModelStories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelStories.swift; sourceTree = "<group>"; };
+		4709DB0B23F7E194008559C5 /* StoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewModel.swift; sourceTree = "<group>"; };
+		4709DB0D23F7E388008559C5 /* StoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryViewController.swift; sourceTree = "<group>"; };
+		4709DB0F23F7EDF5008559C5 /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		4709DB1323F811BB008559C5 /* StoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryCell.swift; sourceTree = "<group>"; };
+		4709DB1423F811BB008559C5 /* StoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryCell.xib; sourceTree = "<group>"; };
+		4709DB1723F87242008559C5 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		4709DB1A23F89488008559C5 /* StoryDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailsViewController.swift; sourceTree = "<group>"; };
+		4709DB1B23F89488008559C5 /* StoryDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoryDetailsViewController.xib; sourceTree = "<group>"; };
+		48400934718616C403E219DE /* Pods_KaodimAssignment_KaodimAssignmentUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaodimAssignment_KaodimAssignmentUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A19CA8D8F57A2353E368AFD9 /* Pods-KaodimAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignment.release.xcconfig"; path = "Target Support Files/Pods-KaodimAssignment/Pods-KaodimAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		C1EA9100D9303D2608A82E4A /* Pods_KaodimAssignmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KaodimAssignmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2BC352E8045B3DE2A1D465 /* Pods-KaodimAssignment-KaodimAssignmentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignment-KaodimAssignmentUITests.debug.xcconfig"; path = "Target Support Files/Pods-KaodimAssignment-KaodimAssignmentUITests/Pods-KaodimAssignment-KaodimAssignmentUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DBFFC704EAB76E87E337B0F2 /* Pods-KaodimAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignment.debug.xcconfig"; path = "Target Support Files/Pods-KaodimAssignment/Pods-KaodimAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		ECE801DA5B92AAFBF0641D11 /* Pods-KaodimAssignmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KaodimAssignmentTests.release.xcconfig"; path = "Target Support Files/Pods-KaodimAssignmentTests/Pods-KaodimAssignmentTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4709DABF23F7C695008559C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DF75BE1A5191F6E322D4AF /* Pods_KaodimAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAD823F7C696008559C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D54CCE1D721CB73FA5A7078 /* Pods_KaodimAssignmentTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAE323F7C696008559C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6098B72A57BD295407163CC6 /* Pods_KaodimAssignment_KaodimAssignmentUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293F9B32F90F7532E13D867E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBFFC704EAB76E87E337B0F2 /* Pods-KaodimAssignment.debug.xcconfig */,
+				A19CA8D8F57A2353E368AFD9 /* Pods-KaodimAssignment.release.xcconfig */,
+				CC2BC352E8045B3DE2A1D465 /* Pods-KaodimAssignment-KaodimAssignmentUITests.debug.xcconfig */,
+				2ECBE087E10EC545E724581C /* Pods-KaodimAssignment-KaodimAssignmentUITests.release.xcconfig */,
+				41D169EBEB376F187C130539 /* Pods-KaodimAssignmentTests.debug.xcconfig */,
+				ECE801DA5B92AAFBF0641D11 /* Pods-KaodimAssignmentTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4709DAB923F7C694008559C5 = {
+			isa = PBXGroup;
+			children = (
+				4709DAC423F7C695008559C5 /* KaodimAssignment */,
+				4709DADE23F7C696008559C5 /* KaodimAssignmentTests */,
+				4709DAE923F7C696008559C5 /* KaodimAssignmentUITests */,
+				4709DAC323F7C695008559C5 /* Products */,
+				293F9B32F90F7532E13D867E /* Pods */,
+				C4A23798689F6A873CBB8BEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4709DAC323F7C695008559C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4709DAC223F7C695008559C5 /* KaodimAssignment.app */,
+				4709DADB23F7C696008559C5 /* KaodimAssignmentTests.xctest */,
+				4709DAE623F7C696008559C5 /* KaodimAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4709DAC423F7C695008559C5 /* KaodimAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				4709DAC523F7C695008559C5 /* AppDelegate.swift */,
+				4709DAC923F7C695008559C5 /* ViewController.swift */,
+				4709DACB23F7C695008559C5 /* Main.storyboard */,
+				4709DAD123F7C696008559C5 /* Assets.xcassets */,
+				4709DAD323F7C696008559C5 /* LaunchScreen.storyboard */,
+				4709DAD623F7C696008559C5 /* Info.plist */,
+				4709DACE23F7C695008559C5 /* KaodimAssignment.xcdatamodeld */,
+				4709DB0523F7CE3B008559C5 /* Localizable.strings */,
+				4709DAF823F7CB40008559C5 /* TopStoriesModule */,
+				4709DB1923F89408008559C5 /* StoryDetails */,
+				4709DAF923F7CC08008559C5 /* Network */,
+				4709DB1123F810A8008559C5 /* App-Environment */,
+				4709DAFE23F7CD7B008559C5 /* Helper */,
+			);
+			path = KaodimAssignment;
+			sourceTree = "<group>";
+		};
+		4709DADE23F7C696008559C5 /* KaodimAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				4709DADF23F7C696008559C5 /* KaodimAssignmentTests.swift */,
+				4709DAE123F7C696008559C5 /* Info.plist */,
+			);
+			path = KaodimAssignmentTests;
+			sourceTree = "<group>";
+		};
+		4709DAE923F7C696008559C5 /* KaodimAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4709DAEA23F7C696008559C5 /* KaodimAssignmentUITests.swift */,
+				4709DAEC23F7C696008559C5 /* Info.plist */,
+			);
+			path = KaodimAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		4709DAF823F7CB40008559C5 /* TopStoriesModule */ = {
+			isa = PBXGroup;
+			children = (
+				4709DB1223F811A2008559C5 /* Cell */,
+				4709DB0D23F7E388008559C5 /* StoryViewController.swift */,
+				4709DB0723F7D349008559C5 /* StoriesModel.swift */,
+				4709DB0B23F7E194008559C5 /* StoriesViewModel.swift */,
+			);
+			path = TopStoriesModule;
+			sourceTree = "<group>";
+		};
+		4709DAF923F7CC08008559C5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4709DAFA23F7CC08008559C5 /* NetworkRouter.swift */,
+				4709DAFB23F7CC08008559C5 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4709DAFE23F7CD7B008559C5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4709DAFF23F7CD7B008559C5 /* Keys.swift */,
+				4709DB0023F7CD7B008559C5 /* ProgressIndicator.swift */,
+				4709DB0123F7CD7B008559C5 /* Utils.swift */,
+				4709DB1723F87242008559C5 /* DateHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4709DB1123F810A8008559C5 /* App-Environment */ = {
+			isa = PBXGroup;
+			children = (
+				4709DB0F23F7EDF5008559C5 /* EndPoints.swift */,
+			);
+			path = "App-Environment";
+			sourceTree = "<group>";
+		};
+		4709DB1223F811A2008559C5 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4709DB1323F811BB008559C5 /* StoryCell.swift */,
+				4709DB1423F811BB008559C5 /* StoryCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		4709DB1923F89408008559C5 /* StoryDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4709DB0923F7D87E008559C5 /* ModelStories.swift */,
+				4709DB1A23F89488008559C5 /* StoryDetailsViewController.swift */,
+				4709DB1B23F89488008559C5 /* StoryDetailsViewController.xib */,
+			);
+			path = StoryDetails;
+			sourceTree = "<group>";
+		};
+		C4A23798689F6A873CBB8BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C26CA6E6E96F643E1FDD1C2 /* Pods_KaodimAssignment.framework */,
+				48400934718616C403E219DE /* Pods_KaodimAssignment_KaodimAssignmentUITests.framework */,
+				C1EA9100D9303D2608A82E4A /* Pods_KaodimAssignmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4709DAC123F7C695008559C5 /* KaodimAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709DAEF23F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignment" */;
+			buildPhases = (
+				F4E2A73D2281EE4C04990ECF /* [CP] Check Pods Manifest.lock */,
+				4709DABE23F7C695008559C5 /* Sources */,
+				4709DABF23F7C695008559C5 /* Frameworks */,
+				4709DAC023F7C695008559C5 /* Resources */,
+				11FF52756CC8F03683DA281B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KaodimAssignment;
+			productName = KaodimAssignment;
+			productReference = 4709DAC223F7C695008559C5 /* KaodimAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4709DADA23F7C696008559C5 /* KaodimAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709DAF223F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignmentTests" */;
+			buildPhases = (
+				5A743AC6658DCFADACF910E2 /* [CP] Check Pods Manifest.lock */,
+				4709DAD723F7C696008559C5 /* Sources */,
+				4709DAD823F7C696008559C5 /* Frameworks */,
+				4709DAD923F7C696008559C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4709DADD23F7C696008559C5 /* PBXTargetDependency */,
+			);
+			name = KaodimAssignmentTests;
+			productName = KaodimAssignmentTests;
+			productReference = 4709DADB23F7C696008559C5 /* KaodimAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4709DAE523F7C696008559C5 /* KaodimAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4709DAF523F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignmentUITests" */;
+			buildPhases = (
+				F69785A407A207E9DD66C272 /* [CP] Check Pods Manifest.lock */,
+				4709DAE223F7C696008559C5 /* Sources */,
+				4709DAE323F7C696008559C5 /* Frameworks */,
+				4709DAE423F7C696008559C5 /* Resources */,
+				609CC9BB13A84A28471172CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4709DAE823F7C696008559C5 /* PBXTargetDependency */,
+			);
+			name = KaodimAssignmentUITests;
+			productName = KaodimAssignmentUITests;
+			productReference = 4709DAE623F7C696008559C5 /* KaodimAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4709DABA23F7C694008559C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Kaodim;
+				TargetAttributes = {
+					4709DAC123F7C695008559C5 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					4709DADA23F7C696008559C5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4709DAC123F7C695008559C5;
+					};
+					4709DAE523F7C696008559C5 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 4709DAC123F7C695008559C5;
+					};
+				};
+			};
+			buildConfigurationList = 4709DABD23F7C694008559C5 /* Build configuration list for PBXProject "KaodimAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4709DAB923F7C694008559C5;
+			productRefGroup = 4709DAC323F7C695008559C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4709DAC123F7C695008559C5 /* KaodimAssignment */,
+				4709DADA23F7C696008559C5 /* KaodimAssignmentTests */,
+				4709DAE523F7C696008559C5 /* KaodimAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4709DAC023F7C695008559C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709DAD523F7C696008559C5 /* LaunchScreen.storyboard in Resources */,
+				4709DB0623F7CE3B008559C5 /* Localizable.strings in Resources */,
+				4709DAD223F7C696008559C5 /* Assets.xcassets in Resources */,
+				4709DACD23F7C695008559C5 /* Main.storyboard in Resources */,
+				4709DB1623F811BC008559C5 /* StoryCell.xib in Resources */,
+				4709DB1D23F89488008559C5 /* StoryDetailsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAD923F7C696008559C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAE423F7C696008559C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11FF52756CC8F03683DA281B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment/Pods-KaodimAssignment-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment/Pods-KaodimAssignment-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment/Pods-KaodimAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A743AC6658DCFADACF910E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaodimAssignmentTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		609CC9BB13A84A28471172CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment-KaodimAssignmentUITests/Pods-KaodimAssignment-KaodimAssignmentUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment-KaodimAssignmentUITests/Pods-KaodimAssignment-KaodimAssignmentUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KaodimAssignment-KaodimAssignmentUITests/Pods-KaodimAssignment-KaodimAssignmentUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4E2A73D2281EE4C04990ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaodimAssignment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F69785A407A207E9DD66C272 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KaodimAssignment-KaodimAssignmentUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4709DABE23F7C695008559C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709DB1823F87242008559C5 /* DateHelper.swift in Sources */,
+				4709DB0E23F7E388008559C5 /* StoryViewController.swift in Sources */,
+				4709DB1C23F89488008559C5 /* StoryDetailsViewController.swift in Sources */,
+				4709DAFD23F7CC08008559C5 /* NetworkManager.swift in Sources */,
+				4709DB0823F7D349008559C5 /* StoriesModel.swift in Sources */,
+				4709DB1523F811BB008559C5 /* StoryCell.swift in Sources */,
+				4709DB0C23F7E194008559C5 /* StoriesViewModel.swift in Sources */,
+				4709DB1023F7EDF5008559C5 /* EndPoints.swift in Sources */,
+				4709DACA23F7C695008559C5 /* ViewController.swift in Sources */,
+				4709DB0423F7CD7B008559C5 /* Utils.swift in Sources */,
+				4709DAC623F7C695008559C5 /* AppDelegate.swift in Sources */,
+				4709DB0A23F7D87E008559C5 /* ModelStories.swift in Sources */,
+				4709DAFC23F7CC08008559C5 /* NetworkRouter.swift in Sources */,
+				4709DB0323F7CD7B008559C5 /* ProgressIndicator.swift in Sources */,
+				4709DB0223F7CD7B008559C5 /* Keys.swift in Sources */,
+				4709DAD023F7C695008559C5 /* KaodimAssignment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAD723F7C696008559C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709DAE023F7C696008559C5 /* KaodimAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4709DAE223F7C696008559C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4709DAEB23F7C696008559C5 /* KaodimAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4709DADD23F7C696008559C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4709DAC123F7C695008559C5 /* KaodimAssignment */;
+			targetProxy = 4709DADC23F7C696008559C5 /* PBXContainerItemProxy */;
+		};
+		4709DAE823F7C696008559C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4709DAC123F7C695008559C5 /* KaodimAssignment */;
+			targetProxy = 4709DAE723F7C696008559C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4709DACB23F7C695008559C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4709DACC23F7C695008559C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4709DAD323F7C696008559C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4709DAD423F7C696008559C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4709DAED23F7C696008559C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4709DAEE23F7C696008559C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4709DAF023F7C696008559C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBFFC704EAB76E87E337B0F2 /* Pods-KaodimAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4709DAF123F7C696008559C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19CA8D8F57A2353E368AFD9 /* Pods-KaodimAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4709DAF323F7C696008559C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D169EBEB376F187C130539 /* Pods-KaodimAssignmentTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaodimAssignment.app/KaodimAssignment";
+			};
+			name = Debug;
+		};
+		4709DAF423F7C696008559C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE801DA5B92AAFBF0641D11 /* Pods-KaodimAssignmentTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KaodimAssignment.app/KaodimAssignment";
+			};
+			name = Release;
+		};
+		4709DAF623F7C696008559C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2BC352E8045B3DE2A1D465 /* Pods-KaodimAssignment-KaodimAssignmentUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaodimAssignment;
+			};
+			name = Debug;
+		};
+		4709DAF723F7C696008559C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECBE087E10EC545E724581C /* Pods-KaodimAssignment-KaodimAssignmentUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KaodimAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kaodim.KaodimAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KaodimAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4709DABD23F7C694008559C5 /* Build configuration list for PBXProject "KaodimAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709DAED23F7C696008559C5 /* Debug */,
+				4709DAEE23F7C696008559C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709DAEF23F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709DAF023F7C696008559C5 /* Debug */,
+				4709DAF123F7C696008559C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709DAF223F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709DAF323F7C696008559C5 /* Debug */,
+				4709DAF423F7C696008559C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4709DAF523F7C696008559C5 /* Build configuration list for PBXNativeTarget "KaodimAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4709DAF623F7C696008559C5 /* Debug */,
+				4709DAF723F7C696008559C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4709DACE23F7C695008559C5 /* KaodimAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4709DACF23F7C695008559C5 /* KaodimAssignment.xcdatamodel */,
+			);
+			currentVersion = 4709DACF23F7C695008559C5 /* KaodimAssignment.xcdatamodel */;
+			path = KaodimAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4709DABA23F7C694008559C5 /* Project object */;
+}
